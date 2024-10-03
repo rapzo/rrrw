@@ -21,6 +21,7 @@ model User {
   hashedPassword      String
   salt                String
   resetToken          String?
+  name                String?
   resetTokenExpiresAt DateTime?
   createdAt           DateTime @default(now())
   updatedAt           DateTime @updatedAt
