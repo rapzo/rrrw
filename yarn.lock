@@ -6389,6 +6389,7 @@ __metadata:
   resolution: "api@workspace:api"
   dependencies:
     "@redwoodjs/api": "npm:8.3.0"
+    "@redwoodjs/api-server": "npm:8.3.0"
     "@redwoodjs/auth-dbauth-api": "npm:8.3.0"
     "@redwoodjs/graphql-server": "npm:8.3.0"
     axios: "npm:^1.7.7"
@@ -7407,17 +7408,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001646":
+"caniuse-lite@npm:^1.0.30001646, caniuse-lite@npm:^1.0.30001663":
   version: 1.0.30001666
   resolution: "caniuse-lite@npm:1.0.30001666"
   checksum: 10c0/2d49e9be676233c24717f12aad3d01b3e5f902b457fe1deefaa8d82e64786788a8f79381ae437c61b50e15c9aea8aeb59871b1d54cb4c28b9190d53d292e2339
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001663":
-  version: 1.0.30001663
-  resolution: "caniuse-lite@npm:1.0.30001663"
-  checksum: 10c0/6508e27bf7fdec657f26f318b1ab64ace6e1208ef9fedaf0975bc89046e0c683bfba837f108840ada1686ff09b8ffd01e05ac791dcf598b8f16eefb636875cf2
   languageName: node
   linkType: hard
 
@@ -17495,6 +17489,7 @@ __metadata:
     "@redwoodjs/router": "npm:8.3.0"
     "@redwoodjs/vite": "npm:8.3.0"
     "@redwoodjs/web": "npm:8.3.0"
+    "@redwoodjs/web-server": "npm:8.3.0"
     "@types/react": "npm:^18.2.55"
     "@types/react-dom": "npm:^18.2.19"
     autoprefixer: "npm:^10.4.20"

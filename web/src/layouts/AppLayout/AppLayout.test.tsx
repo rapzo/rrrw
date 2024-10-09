@@ -1,14 +1,14 @@
 import { render } from '@redwoodjs/testing/web'
 
-import PopularPage from './PopularPage'
+import AppLayout from './AppLayout'
 
 //   Improve this test with help from the Redwood Testing Doc:
 //   https://redwoodjs.com/docs/testing#testing-pages-layouts
 
-describe('PopularPage', () => {
+describe('AppLayout', () => {
   it('renders successfully', () => {
     expect(() => {
-      render(<PopularPage />)
+      render(<AppLayout />)
     }).not.toThrow()
   })
 })
